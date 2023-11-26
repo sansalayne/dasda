@@ -116,17 +116,17 @@ iframe.tmblr-iframe:hover {
     width:25%;
     min-width:200px;}
 .i {
-    margin:10px;
+    margin:50px;
     display:block;
     background:#ffffff;}
 .i img {
     float:left;
-    width:50px;}	
+    width:80px;}	
 
 .right {
-    width:calc(100% - 40px);
+    width:calc(100% - 90px);
     float:right;
-    height:30px;}
+    height:80px;}
 	
 .name {
     width:100%;}
