@@ -1,0 +1,224 @@
+/************************************************************************
+ 
+            THEME BY SAARAA @ CYANTISTS.TUMBLR.COM
+           
+            Please observe common theme sharing etiquette:
+                http://cyantists.tumblr.com/terms
+            Thank you.
+  
+************************************************************************/
+
+a, a:hover, a:before, a:hover:before, .button, .button:hover, iframe.tmblr-iframe, iframe.tmblr-iframe:hover {
+    transition:all 0.4s ease-in-out;
+    -webkit-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;}
+
+body {
+    margin:0px;
+    line-height:1.3;}
+html {
+    font-family:calibri, sans-serif;
+    font-size:10px;
+    overflow-y:scroll;}
+	
+::-webkit-scrollbar {
+    height:0px;
+    width:4px;}
+::-webkit-scrollbar-thumb:vertical {
+    height:auto;
+    width:4px;}
+::-webkit-scrollbar-thumb:hotizontal {
+    display:none;}
+	
+body, a:link, a:active, a:visited, .button, .search {
+    text-decoration:none;}
+*:focus {outline:0;}
+
+iframe.tmblr-iframe {
+    z-index:999999!important;
+    opacity:0.5;
+    padding:10px;
+    filter:invert(1);
+    -webkit-filter:invert(1);
+    -o-filter:invert(1);
+    -moz-filter:invert(1);
+    -ms-filter:invert(1);}
+iframe.tmblr-iframe:hover {
+    opacity:1;}
+   
+#s-m-t-tooltip {
+    position:absolute;
+    z-index:9999999999;
+    margin-top:20px;
+    margin-left:16px;
+    display:inline-block;
+    padding:4px 6px;
+    font-style:italic;}
+
+.container, .topbar {
+    position:relative;
+    width:70%;
+    min-width:800px;
+    left:0;
+    right:0;
+    margin:0px auto 100px auto;}
+.topbar {
+    margin:100px auto 0px auto;}
+    
+.t {
+    margin:10px;
+    display:block;
+    padding:24px;
+    background:#ffffff;
+    position:relative;}
+.t a:not(:first-child) {
+    margin-left:10px;}
+    
+.o, .f {
+    display:inline;
+    margin-left:25px;}
+.h {
+    position:relative;
+    cursor:default;}
+.h:not(.nl):after {
+    position:absolute;
+    content:'';
+    bottom:0;
+    left:0;
+    margin-bottom:-2px;
+    width:calc(100% - 3px);
+    height:1px;
+    background:#777777;
+    opacity:0.2;}
+.button {
+    display:inline-block;
+    margin-left:10px;
+    border:0;
+    padding:0;
+    background:transparent;
+    cursor:pointer;}
+    
+.search {
+    position:absolute;
+    right:25px;
+    top:25px;
+    width:80px;
+    border:0;
+    padding:0;
+    font:1em calibri, sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    text-align:right;}
+
+.float, .ss {
+    width:25%;
+    min-width:200px;}
+.i {
+    margin:50px;
+    display:block;
+    background:#ffffff;}
+.i img {
+    float:left;
+    width:80px;}	
+
+.right {
+    width:calc(100% - 90px);
+    float:right;
+    height:80px;}
+	
+.name {
+    width:100%;}
+.subline {
+    width:100%;
+    margin-top:2px;
+    height:1.3em;
+    overflow:hidden;
+    text-transform:lowercase;
+    left:0;
+    white-space:nowrap;
+    text-overflow:ellipsis;}
+	
+.topbar, .button, .name {
+    font:bold 0.8rem 'Lato', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:1px;}
+	
+.rounded .t, .rounded .i, .rounded .i img, .rounded .cred:before, .rounded .clogo {
+    border-radius:3px;}
+.circle .i img {
+    border-radius:50%;}
+.three .topbar, .three .container {
+    width:54%;
+    min-width:600px;}
+.three .i, .three .ss {
+    width:33.33%;
+    min-width:200px;}
+	
+/********************************************************
+ 
+	Â© SAARAA @ YEARSANDSYEARS / CYANTITSTS
+   
+	Please do not edit, delete, or steal, thank you!
+  
+********************************************************/
+
+.cred:before, .cred:hover:before, .cred *, .cred:hover *, .cred *:before,
+.cred:hover *:before, .cred *:after, .cred:hover *:after {
+    transition:all 0.6s ease-in-out;
+    -webkit-transition:all 0.6s ease-in-out;
+    -o-transition:all 0.6s ease-in-out;
+    -moz-transition:all 0.6s ease-in-out;
+    -ms-transition:all 0.6s ease-in-out;}
+.cred {
+	position:fixed;
+	right:8px;
+	font:10px calibri, sans-serif;
+	bottom:8px;
+	z-index:99999999;}
+.cred:before {
+	position:absolute;
+	content:'cyantists';
+	left:0;
+	margin-left:-59px;
+	width:46px;
+	height:10px;
+	pointer-events:none;
+	opacity:0;
+	text-align:center;
+	line-height:1;
+	font-style:italic;
+	letter-spacing:0.5px;
+	padding:4px 3px 4px 4px;}
+.clogo {
+	position:relative;
+	float:right;
+	width:10px;
+	height:10px;
+	line-height:1;
+	font-weight:bolder;
+	text-transform:uppercase;
+	text-align:center;
+	padding:4px;}
+.cred:hover .clogo,.clogo:after {
+	-moz-transform:scaleX(-1);
+	-o-transform:scaleX(-1);
+	-webkit-transform:scaleX(-1);
+	transform:scaleX(-1);
+	filter:FlipH;
+	-ms-filter:FlipH;}
+.clogo:before,.clogo:after {
+	position:absolute;
+	content:'y';
+	top:0;
+	left:0;
+	right:0;
+	margin:4px;}
+.clogo:after {
+	opacity:0;
+	content:'c';}
+.cred:hover .clogo:before {
+	opacity:0;}
+.cred:hover:before,.cred:hover .clogo:after {
+	opacity:1;}
